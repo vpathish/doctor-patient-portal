@@ -1,4 +1,5 @@
 <?php
+
 session_start();
 if(!isset($_SESSION['useremail'])){
 	echo "Access denied";
@@ -408,4 +409,5 @@ while(($files = readdir($open)) != FALSE){
 		echo "Access Denied";
 	}
 }
+
 	?>
